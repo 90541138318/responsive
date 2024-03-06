@@ -1,0 +1,123 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+  }
+
+
+nav a{
+    text-decoration: none;
+    color: black; 
+    position:static;
+    font-size: 20px;
+   
+    padding-left: 12.70%;
+    padding-right: 12.70%;
+    border-right: 1px solid gray;
+ }
+ h1{
+
+    background-color: red;
+   }
+
+
+
+     /* for mobile screen */
+   @media screen and (max-width: 480px){
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      color: red;
+    }
+   
+   h1{
+      background-color: blue;
+   }
+   nav a{
+    font-size: 2px;
+    text-decoration: none;
+    color: black; 
+    position:static;
+    
+   
+    padding-left: 3.70%;
+    padding-right: 3.70%;
+    border-right: 1px solid gray;
+}
+img{
+    padding-top: 20px;
+}
+
+ footer{
+    text-align: center;
+ }
+  }
+   @media screen and (max-width: 650px){
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+  }
+ h1{
+    background-color: blue;
+ }
+
+}
+
+            /* for tablet */
+@media screen and (max-width: 768px){
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(216, 26, 26);
+    }
+    nav a{
+        font-size: 10px;
+        text-decoration: none;
+        color: black; 
+        position:static;
+        
+       
+        padding-left: 5.70%;
+        padding-right: 5.70%;
+        border-right: 1px solid gray;
+    }
+   h1{
+    text-align: center;
+      background-color: blue;
+   }
+img{
+    padding-top: 20px;
+    
+}
+   
+  }
+
+
+  /* for computer scren */
+
+@media screen and (min-width: 1024px){
+    body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+  }
+ h1{ text-align: center;
+    background-color: green;
+ }
+ img{
+   padding-top: 20px;
+   padding-left: 40%;
+
+ }
+ nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black; 
+    position:static;
+    
+   
+    padding-left: 10.70%;
+    padding-right: 10.70%;
+    border-right: 1px solid gray;
+}
+ footer{
+    text-align: center;
+ }
+ 
+}
